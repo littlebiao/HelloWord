@@ -3,7 +3,7 @@ var createHandler = require('github-webhook-handler')
 var handler = createHandler({ path: '/', secret: 'bluesea' })
  
 http.createServer(function (req, res) {
-	console.log(req, res)
+	console.log("req")
   handler(req, res, function (err) {
     res.statusCode = 404
     res.end('no such location')
