@@ -1,0 +1,22 @@
+{
+  "name": "helloword",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebiao/HelloWord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littlebiao/HelloWord/issues"
+  },
+  "homepage": "https://github.com/littlebiao/HelloWord#readme",
+  "devDependencies": {
+    "forever": "^0.15.3"
+  }
+}
