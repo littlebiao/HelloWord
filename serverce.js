@@ -3,11 +3,12 @@ var createHandler = require('github-webhook-handler')
 var handler = createHandler({ path: '/', secret: 'myhashsecret' })
  
 http.createServer(function (req, res) {
+	console.log(req, res)
   handler(req, res, function (err) {
     res.statusCode = 404
     res.end('no such location')
   })
-}).listen(8085)
+}).listen(8087)
  
 handler.on('error', function (err) {
   console.error('Error:', err.message)
