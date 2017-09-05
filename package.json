@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/littlebiao/HelloWord#readme",
   "devDependencies": {
-    "forever": "^0.15.3"
+    "forever": "^0.15.3",
+    "github-webhook-handler": "^0.6.0"
   }
 }
