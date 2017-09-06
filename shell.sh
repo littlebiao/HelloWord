@@ -1,4 +1,4 @@
 #!/bin/bash
 cd 
-cd desktop/bluesea-front/
+cd desktop/bluesea-front
 git pull
