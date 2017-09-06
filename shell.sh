@@ -1,4 +1,4 @@
 #!/bin/bash
 cd 
-cd desktop/blulesea-front/
+cd desktop/bluesea-front/
 git log
