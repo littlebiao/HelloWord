@@ -1,4 +1,4 @@
 #!/bin/bash
 cd 
 cd desktop/bluesea-front
-git pull
+git commit -m "chore(all): test autobuild" -n
