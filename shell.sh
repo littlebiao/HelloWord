@@ -1,3 +1,4 @@
 #!/bin/bash
-npm run test
+cd 
+cd desktop/blulesea-front/
 git log
