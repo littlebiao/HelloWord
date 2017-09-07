@@ -1,4 +1,4 @@
 #!/bin/bash
 cd 
-cd desktop/bluesea-front
-git commit -m "chore(all): test autobuild" -n
+cd /data0/tudeju/bluesea-front
+git log
